@@ -5,7 +5,7 @@
 
 ## 🌟 Live Demo
 
-👉 [Visit My Portfolio]([https://your-vercel-deployment-url.vercel.app](https://myportfolio-lilac-nine.vercel.app/)) *(Update this link after deployment)*
+👉 [Visit My Portfolio]([https://your-vercel-deployment-url.vercel.app](https://myportfolio-lilac-nine.vercel.app/)
 
 ---
 
