@@ -18,28 +18,26 @@ export default function Portfolio() {
 
       {/* Projects Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        <Card>
-          <CardContent className="p-4">
+        <Card className="p-4">
             <h2 className="text-xl font-semibold">YOLOv8 Vehicle Classification</h2>
             <p className="text-sm text-gray-500 mt-2">A custom-trained YOLOv8 model to detect and classify vehicles in real-time traffic footage.</p>
             <Button className="mt-4" variant="outline">View Project</Button>
-          </CardContent>
         </Card>
 
-        <Card>
-          <CardContent className="p-4">
+        <Card className="p-4">
+          
             <h2 className="text-xl font-semibold">Brain Tumor Detection</h2>
             <p className="text-sm text-gray-500 mt-2">Medical image analysis using deep learning (YOLOv9) to localize and classify brain tumors from MRI scans.</p>
             <Button className="mt-4" variant="outline">View Project</Button>
-          </CardContent>
+          >
         </Card>
 
-        <Card>
-          <CardContent className="p-4">
+        <Card className="p-4">
+          
             <h2 className="text-xl font-semibold">3D Printing Defect Detection</h2>
             <p className="text-sm text-gray-500 mt-2">Industrial application using object detection to identify printing anomalies like stringing and warping.</p>
             <Button className="mt-4" variant="outline">View Project</Button>
-          </CardContent>
+          
         </Card>
       </section>
 
