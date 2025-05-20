@@ -16,16 +16,6 @@ export default function Portfolio() {
         </div>
       </header>
 
-      {/* Skills Section */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Skills</h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {['Python', 'OpenCV', 'PyTorch', 'YOLOv8/v9', 'TensorFlow', 'Streamlit', 'Flask', 'Git', 'Google Colab'].map(skill => (
-            <span key={skill} className="bg-white px-4 py-2 rounded-full shadow text-sm">{skill}</span>
-          ))}
-        </div>
-      </section>
-
       {/* Projects Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
         <Card>
@@ -51,33 +41,6 @@ export default function Portfolio() {
             <Button className="mt-4" variant="outline">View Project</Button>
           </CardContent>
         </Card>
-
-        <Card>
-          <CardContent className="p-4">
-            <h2 className="text-xl font-semibold">Face Recognition Attendance System</h2>
-            <p className="text-sm text-gray-500 mt-2">Real-time face recognition system for automated attendance marking using Dlib and OpenCV.</p>
-            <Button className="mt-4" variant="outline">View Project</Button>
-          </CardContent>
-        </Card>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Testimonials</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-sm italic">"Azeem delivered exceptional work on our object detection project—precise, professional, and on time!"</p>
-              <p className="text-sm font-semibold mt-2">— Client, Upwork</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-sm italic">"Incredible results on our brain imaging model. Highly recommend Azeem for any AI-based solution!"</p>
-              <p className="text-sm font-semibold mt-2">— Client, Fiverr</p>
-            </CardContent>
-          </Card>
-        </div>
       </section>
 
       {/* Resume Download Section */}
