@@ -29,7 +29,6 @@ export default function Portfolio() {
             <h2 className="text-xl font-semibold">Brain Tumor Detection</h2>
             <p className="text-sm text-gray-500 mt-2">Medical image analysis using deep learning (YOLOv9) to localize and classify brain tumors from MRI scans.</p>
             <Button className="mt-4" variant="outline">View Project</Button>
-          >
         </Card>
 
         <Card className="p-4">
