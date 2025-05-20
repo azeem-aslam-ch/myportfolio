@@ -15,8 +15,8 @@ export default function Portfolio() {
             <h1 className="text-6xl font-extrabold leading-tight">Azeem Aslam</h1>
             <p className="text-2xl text-sky-300 mt-2">Computer Vision & Deep Learning Engineer</p>
             <div className="flex gap-4 mt-4 text-sky-400">
-              <a href="https://github.com/azeem" target="_blank"><Github /></a>
-              <a href="https://linkedin.com/in/azeem" target="_blank"><Linkedin /></a>
+              <a href="https://github.com/azeem-aslam-ch" target="_blank"><Github /></a>
+              <a href="https://www.linkedin.com/in/azeemaslam1/" target="_blank"><Linkedin /></a>
               <a href="mailto:azeem.aslam91@yahoo.com"><Mail /></a>
               <a href="/resume/Azeem_Aslam_CV.pdf" download className="flex items-center gap-1">
                 <Download size={18} /> <span className="underline">Download CV</span>
